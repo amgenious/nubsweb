@@ -7,7 +7,7 @@ scrollPos, docHeight;
 
 //Calculate the document height
 docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight, docElem.scrollHeight, docElem.offsetHeight);
-if (docHeight != 'underfined'){
+if (docHeight !== 'underfined'){
 offset = docHeight / 4;
 }    
 

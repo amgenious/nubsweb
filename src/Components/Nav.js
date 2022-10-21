@@ -30,7 +30,7 @@ function Nav() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav>  
      </header>
      );
 }
