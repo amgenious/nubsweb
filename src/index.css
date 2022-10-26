@@ -478,7 +478,7 @@ ol li:hover a{
   letter-spacing: 5px;
 }
 input{
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   visibility: hidden;
   display: none;
 }
