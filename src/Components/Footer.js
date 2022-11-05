@@ -75,7 +75,9 @@ function Footer() {
                 </li>
                 <li>
                   <i class="bi bi-play-fill"></i><a href="https://amgenious.github.io/videos" target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>Videos</a>
-                  <i class="bi bi-play-fill"></i><a href="https://amgenious.github.io/prayer-counselling/" target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>Need Assistance</a>
+                </li>
+                <li>
+                <i class="bi bi-question"></i><a href="https://amgenious.github.io/prayer-counselling/" target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>Need Assistance</a>
                 </li>
               </ul>
             </div>
