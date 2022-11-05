@@ -74,7 +74,8 @@ function Footer() {
                   <i class="bi bi-card-image"></i><Link to='/gallery' style={{textDecoration:'none'}}>Gallery</Link>
                 </li>
                 <li>
-                  <i class="bi bi-play-fill"></i><Link to='/video' style={{textDecoration:'none'}}>Videos</Link>
+                  <i class="bi bi-play-fill"></i><a href="https://amgenious.github.io/videos" target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>Videos</a>
+                  <i class="bi bi-play-fill"></i><a href="https://amgenious.github.io/prayer-counselling/" target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>Need Assistance</a>
                 </li>
               </ul>
             </div>

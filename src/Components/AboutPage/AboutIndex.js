@@ -13,7 +13,7 @@ function AboutIndex() {
                         <hr />
                 <div>
                 <p style={{color:'white'}}><b>Our Patreon </b>- Mr. Alfred Appiah </p>
-                <p style={{color:'white'}}><b>Our Matreon </b>- Dr. Baaba</p>
+                <p style={{color:'white'}}><b>Our Matreon </b>- Dr. Baaba A. Danquah</p>
                 <p style={{color:'white'}}><b>Campus Pastor </b>- Rev. Fred Kumi Achiever</p>
                 </div>
             </div>

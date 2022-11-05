@@ -5,7 +5,6 @@ import AboutIndex from "./Components/AboutPage/AboutIndex";
 import GalleryIndex from "./Components/GalleryPage/GalleryIndex";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import WingsIndex from "./Components/WingsPage/WingsIndex";
-import VideoIndex from "./Components/VideoPage/VideoIndex";
 import { Helmet } from "react-helmet";
 
 
@@ -35,9 +34,6 @@ function App() {
       </Route>
       <Route path="/wing">
         <WingsIndex />
-      </Route>
-      <Route path="/video">
-        <VideoIndex />
       </Route>
       </Switch>
     </div>
