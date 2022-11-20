@@ -6,6 +6,7 @@ import GalleryIndex from "./Components/GalleryPage/GalleryIndex";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import WingsIndex from "./Components/WingsPage/WingsIndex";
 import { Helmet } from "react-helmet";
+import DonationsIndex from "./Components/DonationsPage/DonationsIndex";
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
       </Route>
       <Route path="/wing">
         <WingsIndex />
+      </Route>
+      <Route path="/donations">
+        <DonationsIndex />
       </Route>
       </Switch>
     </div>
