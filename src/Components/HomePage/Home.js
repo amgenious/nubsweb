@@ -18,20 +18,12 @@ function Home() {
           </div>
         </div>
         <div id="text">
-            <h1 style={{fontSize: '100px', color: 'black', textAlign: 'center',fontFamily: 'Monoton', }}>NUBS UENR</h1>
+            <h1 style={{fontSize: '100px', color: 'black', textAlign: 'center' }}>NUBS UENR</h1>
             <p style={{color:'ghostwhite'}}>Empowered... For Action!!!</p>
             <button className="btn btn-outline-danger" style={{width:'100px', borderRadius: '20px'}}>
                     Join Us
             </button>
         </div>    
-        {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button> */}
       </div>
       <br></br>
         </div>

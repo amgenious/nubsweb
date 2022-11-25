@@ -6,10 +6,7 @@ const DonationsIndex = () => {
     <div className='contianer'>
         <div className='row'>
             <div className='col-md-12 text-center'>
-                <p>You can pay your dues, tithes, offerings or make donations to nubs-uenr through our mobile money number
-                    <em> 02222222</em>
-                </p>
-                <p>Please when sending use either offering,tithe,dues or donation as reference </p>
+            <img src={process.env.PUBLIC_URL + '/images/donation_img/pay.jpg'} alt="" />
                 <p>God richly bless you for your support. </p>
             </div>
         </div>

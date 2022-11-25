@@ -13,11 +13,11 @@ function Footer() {
               <div style={{display:'flex',}}>
               <p class="navbar-brand" href="#" id="head"> Nubs Uenr</p>
               <div style={{marginLeft:'10px'}}>
-              <a href="http://www.facebook.com/Nubs-Uenr_Chapter"><i class="bi bi-facebook"></i></a>
-              <a href="http://www.twiter.com/nubs_uenr"><i class="bi bi-twitter"></i></a>
+              <a href="http://www.facebook.com/NubsUenrChapter"><i class="bi bi-facebook"></i></a>
+              <a href="http://www.twitter.com/@nubs_uenr"><i class="bi bi-twitter"></i></a>
               <a href="http://www.instagram.com/nubs_uenr"><i class="bi bi-instagram"></i></a>
               <a href="https://wa.me/0200039099"><i class="bi bi-whatsapp"></i></a>
-              <a href="https://www.youtube.com"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.youtube.com/@nubsuenr4358"><i class="bi bi-youtube"></i></a>
               </div>
               </div>
                 <li>
