@@ -12,8 +12,8 @@ function AboutIndex() {
                         <br />Successive executives under the administration of various presidents, have handled the activities of the union to make us come this far.
                         <hr />
                 <div>
-                <p style={{color:'white'}}><b>Our Patreon </b>- Mr. Alfred Appiah </p>
-                <p style={{color:'white'}}><b>Our Matreon </b>- Dr. Baaba A. Danquah</p>
+                <p style={{color:'white'}}><b>Our Patron </b>- Mr. Alfred Appiah </p>
+                <p style={{color:'white'}}><b>Our Matron </b>- Dr. Baaba A. Danquah</p>
                 <p style={{color:'white'}}><b>Campus Pastor </b>- Rev. Fred Kumi Achiever</p>
                 </div>
             </div>
