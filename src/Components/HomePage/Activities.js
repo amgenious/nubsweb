@@ -13,7 +13,7 @@ function Activities() {
           <div class="col-sm m-auto">
             <h4 style={{color: 'white'}}>SUNDAY SERVICE</h4>
             <p style={{color:'ghostwhite'}}>Venue: Getfund Hostel Basement</p>
-            <p style={{color: 'ghostwhite'}}>Time: 10am</p>
+            <p style={{color: 'ghostwhite'}}>Time: 11am</p>
           </div>
           <div class="col-sm m-auto">
             <h4 style={{color: 'white'}}> TUESDAY BIBLE STUDIES</h4>

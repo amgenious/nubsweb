@@ -77,6 +77,9 @@ function Footer() {
                   <i class="bi bi-card-image"></i><Link to='/donations' style={{textDecoration:'none'}}>Make Donations</Link>
                 </li>
                 <li>
+                  <i class="bi bi-card-image"></i><Link to='/announcements' style={{textDecoration:'none'}}>Announcements</Link>
+                </li>
+                <li>
                   <i class="bi bi-play-fill"></i><a href="https://amgenious.github.io/videos" target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>Videos</a>
                 </li>
                 <li>
