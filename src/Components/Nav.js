@@ -18,7 +18,6 @@ function Nav() {
         <li><Link to='/gallery' style={{textDecoration:'none', color:'white'}} class="nav-link">GALLERY</Link></li>
         <li><Link to='/wing' style={{textDecoration:'none', color:'white'}} class="nav-link">WINGS</Link></li>
         <li><Link to='/donations' style={{textDecoration:'none', color:'white'}} class="nav-link">MAKE DONATIONS</Link></li>
-        <li><Link to='/announcements' style={{textDecoration:'none', color:'white'}} class="nav-link">ANNOUNCEMENT</Link></li>
         <li><a href="https://amgenious.github.io/videos" target="_blank" rel="noreferrer" style={{textDecoration:'none', color:'white'}} class="nav-link">VIDEOS</a></li>
         <li><a href='https://amgenious.github.io/prayer-counselling/'target="_blank" rel="noreferrer" style={{textDecoration:'none', color:'white'}} class="nav-link">NEED ASSISTANCE</a></li>
     </ol>

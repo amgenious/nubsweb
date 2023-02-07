@@ -7,7 +7,6 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import WingsIndex from "./Components/WingsPage/WingsIndex";
 import { Helmet } from "react-helmet";
 import DonationsIndex from "./Components/DonationsPage/DonationsIndex";
-import AnnouncementPage from "./Components/AnnouncementPage";
 
 
 function App() {
@@ -39,9 +38,6 @@ function App() {
       </Route>
       <Route path="/donations">
         <DonationsIndex />
-      </Route>
-      <Route path="/announcements">
-        <AnnouncementPage />
       </Route>
       </Switch>
     </div>
