@@ -20,12 +20,12 @@ function Announcement(){
                     alt=""
                   />
                 </div>
-                <div style={{ width: "50%", boxShadow: "2px 2px 10px" }}>
+                {/* <div style={{ width: "50%", boxShadow: "2px 2px 10px" }}>
                   <img
                     src={process.env.PUBLIC_URL + "/images/vals.jpg"}
                     alt=""
                   />
-                </div>
+                </div> */}
               </div>
               <br></br>
               <center>
