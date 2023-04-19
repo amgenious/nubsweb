@@ -38,18 +38,19 @@ function Nav() {
             <p>Home</p>
             </li>
         </Link>
-        
-        <Link to='/gallery' style={{textDecoration:'none'}} class="nav-link">
-        <li><i class="fa-solid fa-image"></i>
-            <p>Gallery</p>
-            </li>
-        </Link>
+    
         
         <Link to='/about' style={{textDecoration:'none'}} class="nav-link">
         <li><i class="fa-solid fa-grid"></i>
             <p>About</p>
             </li>
         </Link>    
+        
+        <Link to='/gallery' style={{textDecoration:'none'}} class="nav-link">
+        <li><i class="fa-solid fa-image"></i>
+            <p>Gallery</p>
+            </li>
+        </Link>
         
         <Link to='/donations' style={{textDecoration:'none'}} class="nav-link">
         <li><i class="fa-solid fa-credit-card"></i>

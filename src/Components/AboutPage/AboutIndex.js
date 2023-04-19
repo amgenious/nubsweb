@@ -28,6 +28,7 @@ function AboutIndex() {
         <br />Organizing wing 
         <br />Theatre wing
         <p>If you want to know about the wings, click <Link to="/wing" style={{textDecoration:'none'}}>here</Link></p>
+        <p>Click <Link href="" target="_self" style={{textDecoration:'none'}}>here</Link>  to download our constitution</p>
       </div>
       <br/>
     </div>

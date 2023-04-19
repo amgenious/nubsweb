@@ -7,20 +7,16 @@ function Announcement(){
               <center>
                 <h1>Upcoming Events</h1>
               </center>
-              <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                <div
-                  style={{
-                    width: "50%",
-                    boxShadow: "2px 2px 10px",
-                    marginRight: "10px",
-                  }}
-                >
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/nubs@10_fliers.jpg"}
-                    alt=""
-                  />
+
+              <div style={{ display: "flex", justifyContent:'center' }}>
+                <div style={{width: "30%",boxShadow: "2px 2px 10px",marginRight: "10px",}}>
+                  <img src={process.env.PUBLIC_URL + "/images/nubs@10_fliers.jpg"} alt="" />
+                </div>
+                <div>
+                  <p style={{fontSize:'0.8rem' ,color:'white'}}>This is the 10th annniversay flier</p>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
             <h1 style={{fontSize: '100px', color: 'black', textAlign: 'center' }}>NUBS UENR</h1>
             <p style={{color:'ghostwhite'}}>Empowered... For Action!!!</p>
             <button className="btn btn-outline-danger" style={{width:'100px', borderRadius: '20px'}}>
-                    Join Us
+                  <Link href="#" target="_self" style={{textDecoration:'none', color:'white'}}>Join Us</Link>              
             </button>
         </div>    
       </div>
