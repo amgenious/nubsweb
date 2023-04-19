@@ -30,6 +30,8 @@ function WingsIndex() {
     <p style={{paddingLeft: '10px', color: 'ghostwhite'}}><i>A section about each wing coming soon</i></p>
 </div>
 <br></br>
+<br></br>
+<br></br>
 </div>
 </div>
     );

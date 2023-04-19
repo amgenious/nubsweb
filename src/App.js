@@ -1,12 +1,13 @@
 import Nav from "./Components/Nav";
 import HomeIndex from "./Components/HomePage/HomeIndex";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import AboutIndex from "./Components/AboutPage/AboutIndex";
 import GalleryIndex from "./Components/GalleryPage/GalleryIndex";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import WingsIndex from "./Components/WingsPage/WingsIndex";
 import { Helmet } from "react-helmet";
 import DonationsIndex from "./Components/DonationsPage/DonationsIndex";
+import { Helpindex } from "./Components/HelpPage/Helpindex";
 
 
 function App() {
@@ -39,9 +40,12 @@ function App() {
       <Route path="/donations">
         <DonationsIndex />
       </Route>
+      <Route path="/help">
+        <Helpindex />
+      </Route>
       </Switch>
     </div>
-     <Footer />
+     {/* <Footer /> */}
     </div>
     </Router>
   );

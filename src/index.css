@@ -3,9 +3,18 @@
   box-sizing: border-box;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  
+}
+body{
+  background-color: #565e68;
+  color: #e7e8ed;
+  overflow-x: hidden;
+
 }
 #head{
    font-family: 'Pacifico', cursive;
+   color: #192027;
+   width: max-content;
 }
 .sec1{
   height: 750px;
@@ -435,8 +444,182 @@ padding-left:0
   opacity: 0;
 }
 
+/* New NAVBAR */
+.container-fluid{
+  height: 3rem;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+nav{
+  bottom: 0;
+   left: 0; 
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+ 
+}
+nav li{
+  color: #777;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li p{
+  font-size: 12px;
+  margin: 2px 0;
+}
+nav ul li .fa-house, .fa-image, .fa-grid, .fa-credit-card, .fa-book-open,.fa-question{
+  display: none;
+}
+nav ul li:hover,
+nav ul li.active{
+  color: #0004ff;
+}
+@media screen and (max-width:929px){
+  nav{
+      height: 60px;
+      position: fixed;
+      z-index: 9999;
+      background-color: beige;
+  }
+  nav ul{
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  nav ul li .fa-house, .fa-image, .fa-grid, .fa-credit-card, .fa-book-open,.fa-question{
+    display: inline;
+  }
+  nav ul li p{
+    display: none;
+  }
+}
+@media screen and (max-width:424px){
+  .container-fluid .logo{
+    margin-top: 20px;
+  }
+   .search-btn{
+    display: none;
+  }
+}
+
+.search-input{
+  padding: 0 10px 0 10px;  
+}
+.search-input input{
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  padding: 10px;
+  margin-right: 10px;
+}
+/* end of css for navbar */
+
+/* start of css for the counselling page */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+
+}
+
+.accordion:after {
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.panel form {
+  display: flex;
+  flex-direction: column;
+}
+.panel form input{
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.panel form input::placeholder{
+  opacity: 0.5;
+}
+.panel form i{
+  font-size: small;
+}
+.panel form textarea{
+  height: 20vh;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 5px;
+}
+.panel form textarea::placeholder{
+  opacity: 0.5;
+}
+.panel button{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+.adv,.adv1{
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adv{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1523803326055-9729b9e02e5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJheWVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+.adv1{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1611858977757-8f7cdc084d3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVwcmVzc2VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+  @media screen and (max-width:424px){
+    .adv h1, .adv1 h1{
+      font-size: larger;
+    }
+    .adv p{
+      font-size: small;
+    }
+  }
+
+
+
 /* SECOND NAVBAR */
-.containe{
+/* .containe{
   height: 100%;
   width: 250px;
   position: absolute;
@@ -481,9 +664,9 @@ ol li:hover a{
   color: #00eaff;
   letter-spacing: 5px;
 }
-input{
+input{ */
   /* -webkit-appearance: none; */
-  visibility: hidden;
+  /* visibility: hidden;
   display: none;
 }
 .containe label i{
@@ -509,4 +692,4 @@ input{
 #check:checked ~ section{
   transform: scale(1.2);
   filter: brightness(20%);
-}
+} */

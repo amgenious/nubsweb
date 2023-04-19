@@ -37,6 +37,9 @@ function GalleryIndex() {
         <img src={process.env.PUBLIC_URL + '/images/gallery/25.jpg'} alt="" />
         </div>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
         </div>
      );
 }

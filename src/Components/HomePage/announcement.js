@@ -16,29 +16,18 @@ function Announcement(){
                   }}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + "/images/congress.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/nubs@10_fliers.jpg"}
                     alt=""
                   />
                 </div>
-                {/* <div style={{ width: "50%", boxShadow: "2px 2px 10px" }}>
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/vals.jpg"}
-                    alt=""
-                  />
-                </div> */}
               </div>
-              <br></br>
-              <center>
-                <p>
-                  <i>
-                    For more info about any program, message or call us on the
-                    number on the footer.
-                  </i>
-                </p>
-              </center>
             </div>
           </div>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </>
     );
 }
