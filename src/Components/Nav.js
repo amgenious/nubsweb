@@ -58,9 +58,9 @@ function Nav() {
             </li>
         </Link>    
         
-        <Link to='/#' style={{textDecoration:'none'}} class="nav-link">
+        <Link to='/media' style={{textDecoration:'none'}} class="nav-link">
         <li><i class="fa-solid fa-book-open"></i>
-            <p>Sermons</p>
+            <p>Media</p>
             </li>
         </Link>    
         

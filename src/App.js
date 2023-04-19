@@ -8,6 +8,7 @@ import WingsIndex from "./Components/WingsPage/WingsIndex";
 import { Helmet } from "react-helmet";
 import DonationsIndex from "./Components/DonationsPage/DonationsIndex";
 import { Helpindex } from "./Components/HelpPage/Helpindex";
+import { MediaIndex } from "./Components/MediaPage/MediaIndex";
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
       </Route>
       <Route path="/help">
         <Helpindex />
+      </Route>
+      <Route path="/media">
+        <MediaIndex />
       </Route>
       </Switch>
     </div>
