@@ -1,16 +1,19 @@
 import React from 'react'
+import { Payforms } from './Payforms';
 
 const DonationsIndex = () => {
   return (
     <>
-    <div className='contianer'>
+    <div style={{display:'flex', height:'90vh',alignItems:'center'}}>
+    <div className='container'>
         <div className='row'>
             <div className='col-md-12 text-center'>
-            <img src={process.env.PUBLIC_URL + '/images/donation_img/pay.jpg'} alt="" />
-                <p>God richly bless you for your support. </p>
+            <Payforms />
             </div>
         </div>
     </div>
+    </div>
+    
     </>
   )
 }

@@ -28,7 +28,8 @@ function AboutIndex() {
         <br />Organizing wing 
         <br />Theatre wing
         <p>If you want to know about the wings, click <Link to="/wing" style={{textDecoration:'none'}}>here</Link></p>
-        <p>Click <Link href="" target="_self" style={{textDecoration:'none'}}>here</Link>  to download our constitution</p>
+        {/* eslint-disable-next-line */}
+        <p>Click <a href="https://drive.google.com/file/d/1jabGDOB0o-Xa_P_BoO4sqTWsC7DkcbKq/view?usp=share_link" target="_blank" style={{textDecoration:'none'}}>here</a>  to download our constitution</p> 
       </div>
       <br/>
     </div>

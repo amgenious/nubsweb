@@ -41,7 +41,7 @@ function Nav() {
     
         
         <Link to='/about' style={{textDecoration:'none'}} class="nav-link">
-        <li><i class="fa-solid fa-grid"></i>
+        <li><i class="fa-solid fa-circle-info"></i>
             <p>About</p>
             </li>
         </Link>    

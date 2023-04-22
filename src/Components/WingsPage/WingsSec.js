@@ -9,7 +9,8 @@ function WingsSec(props) {
           <p style={{color: 'ghostwhite'}}>{props.word1}<br style={{color: 'ghostwhite'}} />{props.word2}</p>
         </div>
         <button class="btn btn-outline-success" style={{width:'100px', borderRadius: '20px'}}>
-          <a style={{textDecoration: 'none'}} href="https://nubsuenrforms.netlify.app">Join</a>
+          {/* eslint-disable-next-line */}
+          <a style={{textDecoration: 'none'}} href="https://forms.gle/5KtCo7MWdT72QJyt9" target="_blank">Join</a>
         </button>
       </div>
     </div>
