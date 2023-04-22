@@ -480,7 +480,7 @@ nav ul li p{
   font-size: 12px;
   margin: 2px 0;
 }
-nav ul li .fa-house, .fa-image, .fa-grid, .fa-credit-card, .fa-book-open,.fa-question{
+nav ul li .fa-house, .fa-image, .fa-circle-info, .fa-credit-card, .fa-book-open,.fa-question{
   display: none;
 }
 nav ul li:hover,

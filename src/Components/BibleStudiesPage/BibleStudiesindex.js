@@ -15,8 +15,11 @@ export const BibleStudiesindex = () => {
                 <div className="card_content">
                 <div className="card" >
                     <Link href="" className="single">
+                    
                     <div className="card-body">
+                      {/* eslint-disable-next-line */}
                       <h5 className="card-title title"><b></b></h5>
+                      {/* eslint-disable-next-line */}
                       <h6 className="card-subtitle mb-2 text-muted date"></h6>
                       <p className="card-text snippet"></p>
                     </div>
