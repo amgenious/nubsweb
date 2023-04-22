@@ -13,7 +13,7 @@ function Announcement(){
                   <img src={process.env.PUBLIC_URL + "/images/nubs@10_fliers.jpg"} alt="" />
                 </div>
                 <div>
-                  <p style={{fontSize:'0.8rem' ,color:'white'}}>This is the 10th annniversay flier</p>
+                  <p style={{fontSize:'0.8rem' ,color:'white'}}>This is the 10th annniversary flier</p>
                 </div>
               </div>
               
