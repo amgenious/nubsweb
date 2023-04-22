@@ -445,7 +445,7 @@ padding-left:0
 }
 
 /* New NAVBAR */
-.container-fluid{
+.navbar{
   height: 3rem;
   background-color: beige;
   display: flex;
@@ -499,9 +499,6 @@ nav ul li.active{
   }
   nav ul li .fa-house, .fa-image, .fa-circle-info, .fa-credit-card, .fa-book-open,.fa-question{
     display: inline;
-  }
-  nav ul li p{
-    display: none;
   }
 }
 @media screen and (max-width:424px){
@@ -616,7 +613,10 @@ nav ul li.active{
     }
   }
 
-
+/* Dashboard css */
+.dashboard{
+  background-color: #0004ff;
+}
 
 /* SECOND NAVBAR */
 /* .containe{

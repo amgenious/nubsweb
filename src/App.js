@@ -20,13 +20,6 @@ function App() {
   return (
     <>
     <Router>
-    <Switch>
-        <Route path="/dashboard">
-          <Dashboard />
-        </Route>
-      </Switch>
-    </Router>
-    <Router>
     <div className="App">
     <Helmet>
                 <meta charSet="utf-8" />
@@ -72,6 +65,9 @@ function App() {
       <Route path="/events">
         <EventsIndex />
       </Route>
+      <Route path="/dashboard">
+          <Dashboard />
+        </Route>
       </Switch>
     </div>
      {/* <Footer /> */}

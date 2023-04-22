@@ -25,7 +25,7 @@ function Nav() {
 // </div>
 //     </nav>
 //      </header>
-<div className='container-fluid'>
+<div className='container-fluid navbar'>
 <div className='logo'>
 <div class="head" id='head'>NUBSUENR</div>
 </div>
