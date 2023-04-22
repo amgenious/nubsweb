@@ -68,7 +68,6 @@ body{
   display: flex;
   justify-content: flex-end ;
   width: 50%;
-  border-radius: 20px;
 }
 #text1{
   display: flex !important;
