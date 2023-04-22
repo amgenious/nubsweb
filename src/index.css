@@ -498,7 +498,7 @@ nav ul li.active{
       justify-content: space-evenly;
       align-items: center;
   }
-  nav ul li .fa-house, .fa-image, .fa-grid, .fa-credit-card, .fa-book-open,.fa-question{
+  nav ul li .fa-house, .fa-image, .fa-circle-info, .fa-credit-card, .fa-book-open,.fa-question{
     display: inline;
   }
   nav ul li p{

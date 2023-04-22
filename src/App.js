@@ -13,10 +13,19 @@ import { BibleStudiesindex } from "./Components/BibleStudiesPage/BibleStudiesind
 import { PrayerIndex } from "./Components/PrayersPage/PrayerIndex";
 import { SermonIndex } from "./Components/SermonsPage/SermonIndex";
 import { EventsIndex } from "./Components/OtherEventsPage/EventsIndex";
+import { Dashboard } from "./Components/Dashboard/Dashboard";
 
 
 function App() {
   return (
+    <>
+    <Router>
+    <Switch>
+        <Route path="/dashboard">
+          <Dashboard />
+        </Route>
+      </Switch>
+    </Router>
     <Router>
     <div className="App">
     <Helmet>
@@ -68,6 +77,7 @@ function App() {
      {/* <Footer /> */}
     </div>
     </Router>
+    </>
   );
 }
 
