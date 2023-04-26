@@ -19,7 +19,7 @@ function Home() {
           </div>
         </div>
         <div id="text">
-            <h1 style={{fontSize: '100px', color: 'black', textAlign: 'center' }}>NUBS UENR</h1>
+            <h1 style={{fontSize: '4rem', textAlign: 'center' }}><b>NUBS UENR</b></h1>
             <p style={{color:'ghostwhite'}}>Empowered... For Action!!!</p>
             <button className="btn btn-outline-danger" style={{width:'100px', borderRadius: '20px'}}>
                   <Link href="#" target="_self" style={{textDecoration:'none', color:'white'}}>Join Us</Link>              

@@ -25,9 +25,9 @@ function Nav() {
 // </div>
 //     </nav>
 //      </header>
-<div className='container-fluid navbar'>
-<div className='logo'>
-<div class="head" id='head'>NUBSUENR</div>
+<div className='container-fluid navbar' style={{ margin:'0', padding:'0'}}>
+<div className='logo' style={{margin:'0', padding:'0'}}>
+<Link class="navbar-brand ime" href="#"><img src="images/nubsuenr.png" alt='logo' style={{objectFit:'cover'}} /></Link>
 </div>
 <div className='nav-links'>
     <nav>
